@@ -1,0 +1,25 @@
+url: https://www.reactjs.academy   # with the https protocol
+enforce_ssl: www.reactjs.academy   # without any protocol
+assets:
+  compress:
+    css: false
+    js: false
+
+  autowrite: true
+  cache: .asset-cache
+  cache_type: filesystem
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/assets"
+  digest: true
+
+  sources:
+    - _assets/css
+    - _assets/img
+    - _assets/js
+
+  features:
+    liquid: false
+    integrity: false
+    automatic_img_size: true
+    automatic_img_alt : true

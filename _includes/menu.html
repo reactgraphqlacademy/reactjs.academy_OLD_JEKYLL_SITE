@@ -1,0 +1,39 @@
+<header class="navbar navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggle collapsed" onclick="var bsNavbar = document.getElementById('bs-navbar'); bsNavbar.className.indexOf(' collapse') !== -1 ? bsNavbar.className = '': bsNavbar.className = ' collapse'" type="button">
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </button>
+      <a href="../" class="navbar-brand">
+        <span class="logo"></span>
+        ReactJS Academy
+      </a>
+    </div>
+    <nav id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false">
+      <ul class="nav navbar-nav navbar-right">
+        <!--
+        <li class=" {% if page.menu == 'next-courses' %} active {% endif %} dropdown">
+          <a href="/react-redux-training" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/react-redux-training-london">London</a></li>
+            <li><a href="/react-redux-training-berlin">Berlin</a></li>
+            <li><a href="/react-redux-training-amsterdam">Amsterdam</a></li>
+            <li><a href="/react-redux-training-brussels">Brussels</a></li>
+          </ul>
+        </li> -->
+        <li {% if page.menu == 'next' %} class="active" {% endif %}>
+          <a href="/react-redux-graphql-bootcamp-lisbon">Next bootcamp</a>
+        </li>
+        <!-- <li {% if page.menu == 'training' %} class="active" {% endif %}>
+          <a href="/why-training">Why training</a>
+        </li> -->
+        <li {% if page.menu == 'community' %} class="active" {% endif %}>
+          <a href="/become-a-trainer">Become a trainer</a>
+        </li>
+        <li>
+          <a href="mailto:hello@reactjs.academy">hello@reactjs.academy</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
