@@ -10,8 +10,8 @@
     <div class="col-lg-6 col-lg-offset-3">
       <h4>On completion of the bootcamp each student will:</h4>
       <ul class="list-unstyled" style="text-align:left">
-        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Understand the core principles and libraries of the React ecosystem: <code>react, react-router, redux, react-redux, redux-saga, react-apollo</code></li>
-        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Be able to develop and test complex and reliable React applications: <code>enzyme, chai, mocha, sinon, jsdom</code></li>
+        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Understand the core principles and libraries of the React ecosystem: <code>react, react-router, redux, react-redux, redux-saga, graphql</code></li>
+        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Be able to develop and test complex and reliable React applications: <code>enzyme, jest</code></li>
         <li><span class="fa fa-check-circle" aria-hidden="true"></span> Comprehend the best practices for front-end JavaScript: <code>functional programming, es6, webpack</code></li>
         <li><span class="fa fa-check-circle" aria-hidden="true"></span> Understand the best practices and patterns for building layouts: <code>material-ui, react-bootstrap</code></li>
       </ul>
@@ -20,7 +20,27 @@
   <div class="row">
     <div class="col-lg-6 col-lg-offset-3 react-js-curriculum">
       <h3 class="text-center">Curriculum</h3>
-        <h4 class="text-center"><a href="#react-training-day1" name="react-training-day1"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 1. 10 hours: <code>react fundamentals</code>
+      <hr>
+      <h4 class="text-center"><a href="#day0" name="day0"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 0, Sunday evening <strong>(optional)</strong></h4>
+      <ul class="list-unstyled">
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> ES6 and ESNEXT workshop
+          <ul>
+            <li>Understanding language updates - difference between ES6, ES7, and ESNEXT</li>
+            <li>Arrow Functions, Class syntax, Template strings</li>
+            <li>Destructuring</li>
+            <li>Default parameters, Rest operator, Spread operator</li>
+            <li>Let and Const vs Var</li>
+            <li>Rest + Spread properties</li>
+            <li>ES6 iterators and functional programming in JS</li>
+            <li>Modules</li>
+            <li>Promises</li>
+            <li>Generators</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+      <h4 class="text-center"><a href="#day1" name="day1"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 1, Monday
       </h4>
       <ul class="list-unstyled">
         <li>
@@ -47,15 +67,14 @@
           </ul>
         </li>
         <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Forms management in React
-          <ul>
-            <li>
-              Controlled Components vs. Uncontrolled Components
-            </li>
-          </ul>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Component lifecycle
         </li>
         <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Component lifecycle
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> React Router v4<ul>
+            <li>Main components: Router and Route</li>
+            <li>Authentication</li>
+            <li>Implement a master-detail web application</li>
+          </ul>
         </li>
         <li>
           <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Data management
@@ -67,26 +86,29 @@
           </ul>
         </li>
         <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> React Router<ul>
-            <li>Main components: Router, Route, IndexRoute</li>
-            <li>Authentication</li>
-            <li>Implement react-router in a master-detail web application</li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Forms management in React
+          <ul>
+            <li>
+              Controlled Components vs. Uncontrolled Components
+            </li>
           </ul>
         </li>
         <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Introduction to unit testing in React
-        </li>
-        <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Apps vs. Webs: <code>react-bootstrap</code> and <code>material-ui</code>
-        </li>
-        <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Improve the previous React app with React Router and data from a web service
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Component libraries
+          <ul>
+            <li>
+              React-Bootstrap
+            </li>
+            <li>
+              MaterialUI
+            </li>
+          </ul>
         </li>
       </ul>
       <hr>
-      <h4 class="text-center"><a href="#react-training-day2" name="react-training-day2"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 2. 10 hours: <code>redux fundamentals</code></h4>
+      <h4 class="text-center"><a href="#day2" name="day2"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 2, Tuesday</h4>
       <ul class="list-unstyled">
-        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Day 1 recap: build a React app from scratch using React, React Router and data fetching</li>
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Day 1 recap: build a React app from scratch to consolidate using React, React Router and data fetching</li>
         <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Thinking in Redux. What problem is Redux solving?</li>
         <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Intro to functional programming
           <ul>
@@ -99,31 +121,39 @@
         <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Redux Principles
           <ul>
             <li>Store, Reducers, Actions</li>
+            <li>Unique source of truth</li>
           </ul>
         </li>
         <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-          Build your own version of Redux using TDD
+          React-Redux: Provider and Connect
         </li>
-        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Architecting your React app with Redux
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          Exercise:
           <ul>
-            <li><code>react-redux</code>: Provider and Connect</li>
-            <li>Unique source of truth</li>
-            <li>Using <code>react-router</code> and <code>react-redux</code> together</li>
-            <li>Action creators</li>
+            <li>Build your own version of <code>redux</code> and <code>react-redux</code> using TDD</li>
+            <li>Given an existing React-Redux app, you will have to build some features using action creators, reducers and connected containers</li>
+            <li>Configure Redux from scratch in a React app</li>
           </ul>
         </li>
-        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Refactor the app that you built in the morning to use Redux</li>
-        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Connecting Redux to the server
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Connecting Redux to the server
           <ul>
             <li>Fetching data from the server to Redux</li>
-            <li>Updating data from Redux to the server</li>
           </ul>
         </li>
-        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Time travel in Redux using Redux DevTools</li>
       </ul>
       <hr>
-      <h4 class="text-center"><a href="#react-training-day3" name="react-training-day3"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 3. 10 hours: <code>advanced react & redux</code></h4>
+      <h4 class="text-center"><a href="#day3" name="day3"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 3, Wednesday</h4>
       <ul class="list-unstyled">
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Testing React and Redux
+          <ul>
+            <li>Mocking (Spy, Stub), Assertions, Snapshots</li>
+            <li>Shallow, Mount</li>
+            <li>Testing Components, Higher-Order Components, Connected Containers</li>
+            <li>Actions, Reducers</li>
+            <li>Code Coverage</li>
+          </ul>
+        </li>
         <li>
           <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Functional programming
           <ul>
@@ -138,14 +168,55 @@
             <li>Introducing the Redux middleware</li>
             <li>Exercise, build your own Redux middleware</li>
             <li>Thunks. Actions that dispatch actions</li>
+            <li>Exercise, implement loading indicators using thunks</li>
           </ul>
         </li>
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Time travel in Redux using Redux DevTools</li>
+      </ul>
+      <hr>
+      <h4 class="text-center"><a href="#day4" name="day4"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 4, Thursday</h4>
+      <ul class="list-unstyled">
         <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Redux-Saga:
           <ul>
             <li>What is the Saga pattern</li>
             <li>How is Redux-Saga implemented: ES6 generators</li>
             <li>Refactor an app to implement <code>redux-saga</code> instead of <code>redux-thunk</code> and <code>redux-promise</code></li>
-            <li>Unit testing made easy with Redux-Saga</li>
+            <li>Testing with Redux-Saga</li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Going isomorphic/ Universal with React
+          <ul>
+            <li>Nodejs + React + React Router</li>
+            <li>
+              Isomorphic/ Universal Redux.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Styles
+          <ul>
+            <li>
+              CSS vs JS
+            </li>
+            <li>
+              Styled-components
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Performance and Rendering Optimizations (quantified with numbers)
+        </li>
+      </ul>
+      <hr>
+      <h4 class="text-center"><a href="#day5" name="day5"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 5, Friday</code></h4>
+      <ul class="list-unstyled">
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Functional programming concepts
+          <ul>
+            <li>Data and behaviour</li>
+            <li>Data in, data out</li>
+            <li>Composition</li>
           </ul>
         </li>
         <li>
@@ -154,32 +225,6 @@
             <li>Higher-Order Components (HOCs)</li>
             <li>Declarative composition using the Render Callback (AKA function as children)</li>
           </ul>
-        </li>
-        <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Going isomorphic/ Universal with React
-          <ul>
-            <li>Nodejs + React + React Router</li>
-            <li>
-              Isomorphic/ Universal Redux. When and How
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <hr>
-      <h4 class="text-center"><a href="#react-training-day4" name="react-training-day4"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 4. 10 hours: <code>advanced react, graphql</code></h4>
-      <ul class="list-unstyled">
-        <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Testing React and Redux
-          <ul>
-            <li>Mocking (Spy, Stub), Assertions, Snapshots</li>
-            <li>Shallow, Mount</li>
-            <li>Testing Components, Higher-Order Components, Connected Containers</li>
-            <li>Actions, Reducers</li>
-            <li>Code Coverage</li>
-          </ul>
-        </li>
-        <li>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Performance and Rendering Optimizations (quantified with numbers)
         </li>
         <li>
           <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Advanced React patterns II: Create more reusable components
@@ -201,8 +246,21 @@
           <ul>
             <li>Connect an Apollo client to a GraphQL server</li>
             <li>Implement infinite scrolling in a React app using Apollo on the client-side and a  Relay connection on the server-side</li>
-            <li>Update the state of your React app using mutations</li>
+            <li>Update the state of your React app using mutations and Apollo client</li>
           </ul>
+        </li>
+      </ul>
+      <hr>
+      <h4 class="text-center"><a href="#day6" name="day6"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Day 6, Saturday</code></h4>
+      <ul class="list-unstyled">
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Real-world app challenge. We'll implement together an app from scratch
+          <ol>
+            <li>Create teams</li>
+            <li>Discussions about architecture and tools</li>
+            <li>Code in teams</li>
+            <li>Demo</li>
+          </ol>
         </li>
       </ul>
     </div>
