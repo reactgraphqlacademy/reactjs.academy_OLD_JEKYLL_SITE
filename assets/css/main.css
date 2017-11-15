@@ -436,6 +436,9 @@ span.fa {
   z-index: 2;
 }
 
+.workshops h2 {
+  color: white;
+}
 
 .workshops{
   background-image: url('/assets/img/community.jpg');
