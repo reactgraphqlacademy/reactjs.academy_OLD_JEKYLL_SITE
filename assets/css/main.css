@@ -529,6 +529,10 @@ a.btn-info {
   padding: 40px 0;
 }
 
+.section-header-usa {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/masters-directory/nasa-43563.jpg')
+}
+
 .section-header-lisbon h1, .section-header-lisbon strong {
   text-shadow: 1px 0px 5px rgba(0, 0, 0, 1);
 }
