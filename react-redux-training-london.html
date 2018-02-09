@@ -82,6 +82,15 @@ currency: 'GBP'
         </div>
       </div> -->
     </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h3>
+          <strong>
+          Every Monday and Wednesday evening 6-9pm, March 12th to April 18th, 2018.
+          </strong>
+        </h3>
+      </div>
+    </div>
   </div>
   </div>
 </div>
@@ -92,7 +101,19 @@ currency: 'GBP'
 			<div class="col-md-8 col-md-offset-2 text-center">
         <h2>Become a React, Redux, and GraphQL developer in our part-time in-person training in London</h2>
         <p>
-          {% include signup-form.html %}
+          <form class="form-inline more-info-form">
+            <div><input type="hidden" name="mailing-list-submitted" value="1"/></div>
+            <div class="form-group" style="margin: 20px 0;">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name!">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your best email">
+            </div>
+            <br />
+            <button type="submit" class="btn btn-lg btn-info">More info please!</button>
+          </form>
         </p>
 			</div>
 		</div>
