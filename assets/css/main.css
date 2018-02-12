@@ -822,3 +822,12 @@ width:100%;
   margin-top: 60px;
 }
 
+.flexbox-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
