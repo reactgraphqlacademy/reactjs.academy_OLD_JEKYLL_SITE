@@ -1,0 +1,256 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="text-center">
+        1-day Advanced React Training
+      </h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+      <h4>On completion of the course each student will:</h4>
+      <ul class="list-unstyled" style="text-align:left">
+        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Understand functional programming basics applied to React</code></li>
+        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Be able to write simple tests for complex React applications</li>
+        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Comprehend the best practices for performance in React</li>
+        <li><span class="fa fa-check-circle" aria-hidden="true"></span> Understand the best patterns for building reusable UIs and reusable logic</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3 react-js-curriculum">
+      <h3 class="text-center">Curriculum - 12 sessions</h3>
+      <hr>
+      <h4 class="text-center"><a href="#session1" name="session1"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a>Session 1</h4>
+      <ul class="list-unstyled">
+        <li>
+          <ul>
+            <li>Understanding language updates - difference between ES6, ES7, and ESNEXT</li>
+            <li>Arrow Functions, Class syntax, Template strings</li>
+            <li>Destructuring</li>
+            <li>Default parameters, Rest operator, Spread operator</li>
+            <li>Let and Const vs Var</li>
+            <li>Rest + Spread properties</li>
+            <li>ES6 iterators and functional programming in JS</li>
+            <li>Modules</li>
+            <li>Promises</li>
+            <li>Generators</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+      <h4 class="text-center"><a href="#session2" name="session2"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+        Session 2
+      </h4>
+      <ul class="list-unstyled">
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Thinking in React
+          <ul>
+            <li>The Imperative to Declarative Shift</li>
+            <li>Everything is a component</li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> What is React made up of
+          <ul>
+            <li>Props vs. State</li>
+            <li>One way data binding</li>
+            <li>Components with and without state. Classes vs. Functions</li>
+            <li>Developer tools</li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Virtual DOM and JSX
+          <ul>
+            <li>React Components, Elements, and Instances</li>
+            <li>JSX and React.createElement</li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Data management
+          <ul>
+            <li>Presentational Components vs. Container Components</li>
+            <li>
+               Data fetching
+            </li>
+          </ul>
+        </li>
+        <li>
+      <hr>
+
+      <h4 class="text-center"><a href="#session3" name="session3"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 3</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> React Router v4<ul>
+            <li>Main components: Router and Route</li>
+            <li>Authentication</li>
+            <li>Implement a master-detail web application</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session4" name="session4"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 4</h4>
+      <ul>
+        <li>
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Forms management in React
+          <ul>
+            <li>
+              Controlled Components vs. Uncontrolled Components
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Component libraries
+          <ul>
+            <li>
+              React-Bootstrap
+            </li>
+            <li>
+              MaterialUI
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Component lifecycle
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session5" name="session5"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 5</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> First React Project <ul>
+            <li>Implement a React app from scratch</li>
+            <li>Consolidate learning by building</li>
+            <li>Guidance, mentoring and feedback during build</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session6" name="session6"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 6</h4>
+      <ul>
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Redux Principles
+          <ul>
+            <li>Store, Reducers, Actions</li>
+            <li>Unique source of truth</li>
+          </ul>
+        </li>
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          React-Redux: Provider and Connect
+        </li>
+        <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          Exercise:
+          <ul>
+            <li>Build your own version of <code>redux</code> and <code>react-redux</code> using TDD</li>
+            <li>Given an existing React-Redux app, you will have to build some features using action creators, reducers and connected containers</li>
+            <li>Configure Redux from scratch in a React app</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session7" name="session7"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 7</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Testing Redux
+          <ul>
+            <li>Mocking (Spy, Stub), Assertions, Snapshots</li>
+            <li>Shallow, Mount</li>
+            <li>Actions, Reducers</li>
+            <li>Code Coverage</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session8" name="session8"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 8</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Going isomorphic/ Universal with React
+          <ul>
+            <li>Nodejs + React + React Router</li>
+            <li>
+              Isomorphic / Universal Redux.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session9" name="session9"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 9</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Styles
+          <ul>
+            <li>
+              CSS vs JS
+            </li>
+            <li>
+              Styled-components
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Component libraries
+          <ul>
+            <li>
+              React-Bootstrap
+            </li>
+            <li>
+              MaterialUI
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session10" name="session10"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 10</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Testing React
+          <ul>
+            <li>Mocking (Spy, Stub), Assertions, Snapshots</li>
+            <li>Shallow, Mount</li>
+            <li>Testing Components, Higher-Order Components, Connected Containers</li>
+            <li>Code Coverage</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session11" name="session11"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 11</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>GraphQL
+          <ul>
+            <li>GraphQL: Query, Mutation, Fragment</li>
+            <li>Relay vs. Apollo</li>
+            <li>Relay connections</li>
+          </ul>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>GraphQL exercise: Integrate Apollo in a React & Redux app
+          <ul>
+            <li>Connect an Apollo client to a GraphQL server</li>
+            <li>Implement infinite scrolling in a React app using Apollo on the client-side and a  Relay connection on the server-side</li>
+            <li>Update the state of your React app using mutations and Apollo client</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+
+      <h4 class="text-center"><a href="#session12" name="session12"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> Session 12</h4>
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Final Project<ul>
+            <li>Implement a React app from scratch</li>
+            <li>Make design guided design decisions based on the use case</li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+    </div>
+  </div>
+</div>
