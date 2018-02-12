@@ -530,7 +530,7 @@ a.btn-info {
 }
 
 .section-header-usa {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/masters-directory/nasa-43563.jpg')
+  background-image: url('/assets/img/ny-bootcamp.jpg')
 }
 
 .section-header-lisbon h1, .section-header-lisbon strong {
