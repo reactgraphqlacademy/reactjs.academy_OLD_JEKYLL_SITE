@@ -42,19 +42,108 @@ currency: 'EUR'
 </div>
 
 <div class="section grey-bg">
+  <div class="container">
+    <h2 class="text-center">Next React training in Berlin</h2>
+    <div class="row row-courses">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row row-flex">
+          <div class="col-sm-8 flex-col">
+            <p><br/><strong>Early bird ticket</strong>, 1-day Advanced React Training</p>
+            <p>The cost of the regular ticket is <strong>€295</strong> + VAT per student.</p>
+            <p>Date: Saturday, Apr 7, 2018</p>
+          </div>
+          <div class="col-sm-4 flex-col">
+            <div
+              class="checkout-course-btn text-center"
+              data-course-code="advreactber201803"
+              data-course-type="fundamentals"
+              data-course-price="295"
+              data-course-title="1-day Advanced React Training"
+              data-checkout-btn-text="Buy Now"
+              data-currency="gbp"
+              data-button="btn_3colheader_bootcamp"
+            ></div>
+            <h4 class="text-center">
+               <span style="text-decoration:line-through; color:red; margin-right:8px">
+                 &pound;395
+               </span>
+               <span>
+                 &pound;295
+               </span>
+            </h4>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row row-flex">
+          <div class="col-sm-8 flex-col">
+            <p><br/><strong>Regular ticket</strong>, 1-day Advanced React Training</p>
+            <p>The cost of the regular ticket is <strong>€395</strong> + VAT per student.</p>
+            <p>Date: Saturday, Apr 7, 2018</p>
+          </div>
+          <div class="col-sm-4 flex-col text-center" style="padding-top:30px">
+            Sales start in March
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section white-bg">
+    {% include cv-1day-advanced-react.html %}
+</div>
+
+<div class="section grey-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center">
-        <h2>Become a React, Redux, and GraphQL developer in our part-time in-person training in Berlin</h2>
-        <p>
-          {% include signup-form.html %}
-        </p>
+        <h2>Join our Berlin newsletter</h2>
+        {% include signup-form.html %}
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="section white-bg">
+<div class="section white-bg ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+        <h2 class="text-center">Meet the coach</h2>
+        <div class="row text-center flexbox-container" style="padding-top:20px">
+          <div style="padding-bottom: 20px;" class="col-sm-6 text-center">
+              <p>
+              <a class="text-center" target="_blank" href="https://github.com/alexlbr"><img src="/assets/img/alex.jpg" class="img-responsive img-circle" alt="Alex Lobera"></a>
+            </p>
+            <p>
+              <h4><a target="_blank" href="https://github.com/alexlbr">Alex Lobera</a></h4>
+            </p>
+          </div>
+          <div style="padding-bottom: 20px;" class="col-sm-6 text-center">
+            <p>
+              <a target="_blank" href="/become-a-coach.html">
+                <img src="/assets/img/default-avatar.jpg" class="img-responsive img-circle" alt="You?">
+              </a>
+            </p>
+            <p>
+              <h4><a href="/become-a-coach.html">You?</a></h4>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section blue-bg">
+	{% include a-day-in-our-training.html %}
+</div>
+
+
+{% include trainees-say.html %}
+
+<div class="section grey-bg">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
@@ -68,25 +157,6 @@ currency: 'EUR'
     </div>
   </div>
 </div>
-
-<div class="section blue-bg">
-	{% include a-day-in-our-training.html %}
-</div>
-
-<div class="section white-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2>
-        ReactJS Academy in <strong>Berlin</strong> is comming soon :)
-        </h2>
-        {% include meanwhile-portugal.html %}
-      </div>
-    </div>
-  </div>
-</div>
-
-{% include trainees-say.html %}
 
 <div class="section white-bg">
 	{% include cost-learning.html %}
