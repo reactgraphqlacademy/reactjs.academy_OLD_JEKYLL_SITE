@@ -508,6 +508,7 @@ a.btn-info {
 
 .section-header-berlin .jumbotron,
 .section-header-amsterdam .jumbotron,
+.section-header-barcelona .jumbotron,
 .section-header-london .jumbotron {
   padding: 60px 20px 20px;
 }
@@ -522,6 +523,11 @@ a.btn-info {
 
 .section-header-brussels {
   background-image: url('/assets/img/brussels-lg.jpg');
+}
+
+.section-header-barcelona {
+  background-image: url('/assets/img/barcelona-lg.jpg');
+  background-position: center;
 }
 
 .section-header-lisbon {
@@ -815,3 +821,4 @@ width:100%;
 .row-top-margin {
   margin-top: 60px;
 }
+
