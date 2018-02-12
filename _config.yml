@@ -1,9 +1,12 @@
 url: https://www.reactjs.academy   # with the https protocol
 enforce_ssl: www.reactjs.academy   # without any protocol
+safe: false
+plugins:
+  - alias_generator
 assets:
   compress:
-    css: false
-    js: false
+    css: true
+    js: true
 
   autowrite: true
   cache: .asset-cache
