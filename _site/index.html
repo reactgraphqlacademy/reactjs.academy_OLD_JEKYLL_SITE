@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="ReactJS Redux courses and on-site private training">
+  <meta name="description" content="ReactJS Redux courses and on-site private training. Intenisive course and small groups.">
+  <meta property="og:url" content="https://reactjs.academy/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="ReactJS Redux courses and on-site private training" />
+  <meta property="og:description" content="ReactJS Redux courses and on-site private training. Intenisive course and small groups." />
+  <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/masters-directory/reactacademy-web.jpg" />
+
+  <title>ReactJS Academy, React Redux bootcamps</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/main.css?v=1.13" rel="stylesheet">
+  <link rel="canonical" href="https://www.reactjs.academy/" />
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="manifest" href="/manifest.json">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  	<![endif]-->
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <script async type="text/javascript" src="/assets/js/bundle.min.js"></script>
+
+
+  <script type="text/javascript">
+    var host = "reactjs.academy";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      if (location.search.match(/mailing-list-submitted/)) {
+        thanksAlert();
+      }
+    })
+
+    function thanksAlert() {
+      $(".alert").show();
+    }
+
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MVK4HZS');
+
+  </script>
+  <!-- End Google Tag Manager -->
+
+</head>
+
+<body class="home white-navbar">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVK4HZS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="alert alert-success alert-dismissable text-center">
+    <a href="/react-redux-graphql-bootcamp-lisbon" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    Thanks! We'll be in touch with more info soon.
+  </div>
+  <header class="navbar navbar-static-top">
+  <div class="container navbar">
+    <div class="navbar-header">
+      <button aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggle collapsed" onclick="var bsNavbar = document.getElementById('bs-navbar'); bsNavbar.className.indexOf(' collapse') !== -1 ? bsNavbar.className = '': bsNavbar.className = ' collapse'" type="button">
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </button>
+      <a href="../" class="navbar-brand">
+        <span class="logo"></span>
+        ReactJS Academy
+      </a>
+    </div>
+    <nav id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false">
+      <ul class="nav navbar-nav navbar-right">
+        <li >
+          <a href="/react-redux-graphql-bootcamp-lisbon">Next bootcamp</a>
+        </li>
+        <li >
+          <a href="/become-a-coach">Become a coach</a>
+        </li>
+        <li class="  dropdown">
+          <a href="/react-redux-graphql-training" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/react-redux-training-london">London</a></li>
+            <li><a href="/react-redux-training-barcelona">Barcelona</a></li>
+            <li><a href="/react-redux-training-berlin">Berlin</a></li>
+            <li><a href="/react-redux-training-amsterdam">Amsterdam</a></li>
+            <li><a href="/react-redux-training-paris">Paris</a></li>
+            <li><a href="/react-redux-training-brussels">Brussels</a></li>
+            <li><a href="/react-redux-training-ny">New York</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="mailto:hello@reactjs.academy">hello@reactjs.academy</a>
+        </li>
+        <li><a href="https://www.facebook.com/reactjsacademy/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/reactjsacademy"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/reactjsacademy/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UC8eG6zOgWqeIZlJ8KRgEbSQ"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+ <div class="section section-header-home white-bg">
+  <div class="container jumbotron">
+    <div class="row">
+			<div class="col-md-10 col-md-offset-1">
+        <h1 class="text-center">
+          Become an amazing React developer
+        </h1>
+        <div class="call-to-video text-center">
+          <a href="https://www.youtube.com/embed/2-IPT7Plsfc?autoplay=1"
+            data-mediabox="video1"
+            data-iframe="true"
+            data-width="530"
+            data-height="315"
+            data-title="ReactJS Academy">
+            <span class="fa fa-youtube-play fa-6" style="color:#FC0D1B" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section grey-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+
+        <div class="call-to-action">
+          <a href="/react-redux-graphql-bootcamp-lisbon" class="btn btn-info btn-default">See next bootcamp</a>
+          <!-- <a href="/become-a-trainer" class="btn btn-default">Become a trainer</a> -->
+        </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section white-bg section-logos">
+	<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <ul class="list-unstyled list-inline">
+        <li>
+            <img src="/assets/img/logos/abinbev.png" style="margin-right:-15px" alt="abinbev">
+        </li>
+        <li>
+            <img src="/assets/img/logos/asos.png" style="width: 100px;margin-top:40px" alt="ASOS">
+        </li>
+        <li>
+            <img src="/assets/img/logos/ft.png" alt="financial times">
+        </li>
+        <li>
+          <img src="/assets/img/logos/blockchain.png" alt="blockchain">
+        </li>
+        <li>
+            <img src="/assets/img/logos/trainline.png" alt="the trainline">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="section grey-txt grey-bg">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+        <h2>
+          Next React & Redux part-time courses
+        </h2>
+      </div>
+    </div>
+		<div class="row text-center other-locations">
+			<div class="col-xs-6 col-md-3">
+        <a href="/react-redux-training-london">
+          <img class="img-circle img-responsive" src="/assets/img/london.jpg" alt="London" />
+        </a>
+        <h3>
+          <a href="/react-redux-training-london">
+          London
+          </a>
+        </h3>
+        <h4>
+          March 12th, 2018
+        </h4>
+        <p>
+          <a href="/react-redux-training-london" class="btn btn-default">Know more</a>
+        </p>
+        <hr class="visible-xs visible-sm">
+			</div>
+      <div class="col-xs-6 col-md-3">
+        <a href="/react-redux-training-barcelona">
+          <img class="img-circle img-responsive" src="/assets/img/barcelona.jpg" alt="Barcelona" />
+        </a>
+        <h3>
+          <a href="/react-redux-training-barcelona">
+          Barcelona
+          </a>
+        </h3>
+        <h4>
+          March 12th, 2018
+        </h4>
+        <p>
+          <a href="/react-redux-training-barcelona" class="btn btn-default">Know more</a>
+        </p>
+        <hr class="visible-xs visible-sm">
+			</div>
+			<div class="col-xs-6 col-md-3">
+        <a href="/react-redux-training-amsterdam">
+          <img class="img-circle img-responsive" src="/assets/img/amsterdam.jpg" alt="Amsterdam" />
+        </a>
+        <h3>
+          <a href="/react-redux-training-amsterdam">
+          Amsterdam
+          </a>
+        </h3>
+        <h4>
+          March 31, 2018
+        </h4>
+        <p>
+          <a href="/react-redux-training-amsterdam" class="btn btn-default">Know more</a>
+        </p>
+			</div>
+      <div>
+  			<div class="col-xs-6 col-md-3">
+          <a href="/react-redux-training-berlin">
+            <img class="img-circle img-responsive" src="/assets/img/berlin.jpg" alt="Berlin" />
+          </a>
+          <h3>
+            <a href="/react-redux-training-berlin">
+            Berlin
+            </a>
+          </h3>
+          <h4>
+            Apr 7, 2018
+          </h4>
+          <p>
+            <a href="/react-redux-training-berlin" class="btn btn-default">Know more</a>
+          </p>
+  			</div>
+      </div>
+    </div>
+	</div>
+</div>
+
+<div class="section white-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/reactjs-academy-mid.jpg" style="border-radius:4px" class="img-responsive" />
+      </div>
+      <div class="col-md-6">
+        <h2>ReactJS Academy is Europes longest running dedicated React and Redux training.</h2>
+        <p>
+          Established in <a href="https://www.meetup.com/JavaScript-London/events/230287691/" target="_blank">May 2016</a>, we've trained over 1000 developers across the EU in our private bootcamps and public workshops.
+        </p>
+        <p>
+          <a href="/react-redux-graphql-bootcamp-lisbon" class="btn btn-info btn-lg btn-default">See next bootcamp</a>
+        </p>
+        <!--
+        <p>
+          You can read reviews of our workshops in the following Meetup groups which we organise:
+        </p>
+        <ul class="list-unstyled list-inline">
+          <li>
+            <a href="http://www.meetup.com/JavaScript-London/" target="_blank" class="btn btn-default">London</a>
+          </li>
+          <li>
+            <a href="http://www.meetup.com/JavaScript-Berlin/" target="_blank" class="btn btn-default">Berlin</a>
+          </li>
+          <li>
+            <a href="http://www.meetup.com/JavaScript-Paris/" target="_blank" class="btn btn-default">Paris</a>
+          </li>
+          <li>
+            <a href="http://www.meetup.com/JavaScript-Barcelona/" target="_blank" class="btn btn-default">Barcelona</a>
+          </li>
+          <li>
+            <a href="http://www.meetup.com/JavaScript-Amsterdam/" target="_blank" class="btn btn-default">Amsterdam</a>
+          </li>
+          <li>
+            <a href="http://www.meetup.com/JavaScript-Lisbon/" target="_blank" class="btn btn-default">Lisbon</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section grey-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 text-center">
+				<h2 class="text-center">Is your company interested in private on-site training?</h2>
+        <p>
+          <br><a href="mailto:hello@reactjs.academy?subject=Quote on-site private training" class="btn btn-info btn-lg">Quote private training</a>
+        </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Here in Lisbon with the <a href="https://twitter.com/leanjscom?ref_src=twsrc%5Etfw">@leanjscom</a> folks to conclude this week-long workshop on JS/React/etc. Great group of attendees hungry for more JS! :) <a href="https://t.co/NYpumhnjRr">pic.twitter.com/NYpumhnjRr</a></p>&mdash; getify (@getify) <a href="https://twitter.com/getify/status/959719666728890368?ref_src=twsrc%5Etfw">3 de febrero de 2018</a></blockquote>
+			</div>
+      <div class="col-md-3 col-sm-6">
+        <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Good geeky times <a href="https://twitter.com/ZalandoTech?ref_src=twsrc%5Etfw">@ZalandoTech</a> while playing a bit with <a href="https://twitter.com/hashtag/reactjs?src=hash&amp;ref_src=twsrc%5Etfw">#reactjs</a>. Thanks <a href="https://twitter.com/alex_lobera?ref_src=twsrc%5Etfw">@alex_lobera</a> <a href="https://twitter.com/reactjsacademy?ref_src=twsrc%5Etfw">@reactjsacademy</a> <a href="https://t.co/v1MYykyaTY">pic.twitter.com/v1MYykyaTY</a></p>&mdash; Andreea Lungulescu (@Andreea_BBO) <a href="https://twitter.com/Andreea_BBO/status/839908726157029382?ref_src=twsrc%5Etfw">9 de marzo de 2017</a></blockquote>
+      </div>
+      <div class="col-md-3 col-sm-6">
+				<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">About today in <a href="https://twitter.com/reactjsacademy?ref_src=twsrc%5Etfw">@reactjsacademy</a> <a href="https://twitter.com/leanjscom?ref_src=twsrc%5Etfw">@leanjscom</a> <a href="https://twitter.com/hashtag/ReactBootcamp?src=hash&amp;ref_src=twsrc%5Etfw">#ReactBootcamp</a> <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> 😎👨‍🏫👨🏻‍💻 <a href="https://t.co/F2dNIs0gng">pic.twitter.com/F2dNIs0gng</a></p>&mdash; Lucas Caixeta📦 (@Lucas_Caixeta) <a href="https://twitter.com/Lucas_Caixeta/status/958143427811663875?ref_src=twsrc%5Etfw">30 de enero de 2018</a></blockquote>
+      </div>
+      <div class="col-md-3 col-sm-6">
+				<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/BlueMonday?src=hash&amp;ref_src=twsrc%5Etfw">#BlueMonday</a> <a href="https://twitter.com/hashtag/reactjsacademy?src=hash&amp;ref_src=twsrc%5Etfw">#reactjsacademy</a> style...we’re starting this week with <a href="https://twitter.com/hashtag/KyleSimpson?src=hash&amp;ref_src=twsrc%5Etfw">#KyleSimpson</a> <a href="https://twitter.com/getify?ref_src=twsrc%5Etfw">@getify</a> and <a href="https://twitter.com/hashtag/functionalprogramming?src=hash&amp;ref_src=twsrc%5Etfw">#functionalprogramming</a> in <a href="https://twitter.com/hashtag/JavaScript?src=hash&amp;ref_src=twsrc%5Etfw">#JavaScript</a> 💪🏻🤓🙌🏻 <a href="https://twitter.com/hashtag/coding?src=hash&amp;ref_src=twsrc%5Etfw">#coding</a> <a href="https://twitter.com/hashtag/webdev?src=hash&amp;ref_src=twsrc%5Etfw">#webdev</a> <a href="https://twitter.com/hashtag/learntocode?src=hash&amp;ref_src=twsrc%5Etfw">#learntocode</a> <a href="https://twitter.com/hashtag/WebDevelopment?src=hash&amp;ref_src=twsrc%5Etfw">#WebDevelopment</a> <a href="https://t.co/Yf6IcweTkP">pic.twitter.com/Yf6IcweTkP</a></p>&mdash; reactjs.academy (@reactjsacademy) <a href="https://twitter.com/reactjsacademy/status/960463390777987073?ref_src=twsrc%5Etfw">5 de febrero de 2018</a></blockquote>
+      </div>
+    </div>
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Enjoyed first dive into <a href="https://twitter.com/hashtag/ReactJS?src=hash&amp;ref_src=twsrc%5Etfw">#ReactJS</a> tonight with <a href="https://twitter.com/reactjsacademy?ref_src=twsrc%5Etfw">@reactjsacademy</a> <a href="https://t.co/rE3PZSAI16">pic.twitter.com/rE3PZSAI16</a></p>&mdash; David Wilford (@davidwilford) <a href="https://twitter.com/davidwilford/status/859507150649008132?ref_src=twsrc%5Etfw">2 de mayo de 2017</a></blockquote>
+			</div>
+      <div class="col-md-3 col-sm-6">
+        <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Amazing venue at <a href="https://twitter.com/MozillaParis?ref_src=twsrc%5Etfw">@MozillaParis</a> for an amazing advanced <a href="https://twitter.com/hashtag/reactjs?src=hash&amp;ref_src=twsrc%5Etfw">#reactjs</a> workshop with <a href="https://twitter.com/alex_lobera?ref_src=twsrc%5Etfw">@alex_lobera</a>. Thanks for the reviews <a href="https://t.co/jC6UjYMxti">https://t.co/jC6UjYMxti</a> <a href="https://t.co/Rru1nJ9K3A">pic.twitter.com/Rru1nJ9K3A</a></p>&mdash; reactjs.academy (@reactjsacademy) <a href="https://twitter.com/reactjsacademy/status/839507299576197120?ref_src=twsrc%5Etfw">8 de marzo de 2017</a></blockquote>
+      </div>
+			<div class="col-md-3 col-sm-6">
+        <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">The sun waking up the city on my walk to round 2 of <a href="https://twitter.com/reactjsacademy?ref_src=twsrc%5Etfw">@reactjsacademy</a> <a href="https://t.co/T1jir6zryL">pic.twitter.com/T1jir6zryL</a></p>&mdash; Andru Dunn (@drudunn) <a href="https://twitter.com/drudunn/status/850618836508434433?ref_src=twsrc%5Etfw">8 de abril de 2017</a></blockquote>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">👨🏻‍💻 Super exited for the <a href="https://twitter.com/reactjsacademy?ref_src=twsrc%5Etfw">@reactjsacademy</a>!! Will be a great coding week! <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> <a href="https://twitter.com/hashtag/codingbootcamp?src=hash&amp;ref_src=twsrc%5Etfw">#codingbootcamp</a> <a href="https://twitter.com/hashtag/reactjs?src=hash&amp;ref_src=twsrc%5Etfw">#reactjs</a> 🚀 <a href="https://t.co/FJ29yHL7y2">https://t.co/FJ29yHL7y2</a></p>&mdash; Lucas Caixeta📦 (@Lucas_Caixeta) <a href="https://twitter.com/Lucas_Caixeta/status/957605490225287168?ref_src=twsrc%5Etfw">28 de enero de 2018</a></blockquote>
+			</div>
+    </div>
+	</div>
+</div>
+
+
+
+<div class="section blue-bg">
+	<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h2 class="text-center">Why attend</h2>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="text-center"><span class="fa fa-crosshairs" aria-hidden="true"></span> Focus, no distractions</h3>
+          <p>
+            Focus away from distractions, <strong>accelerate your learning</strong>. One week to focus on just one thing, learning React. Like-minded people, experienced instructors, comprehensive curriculum, and an amazing place.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h3 class="text-center"><span class="fa fa-code" aria-hidden="true"></span> Learn by doing</h3>
+          <p>
+            Learn by doing, move fast and break things. We want you to code as much as possible, and make mistakes in a safe environment. You will <strong>practice everything</strong> we explain in our project-based hands-on training.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="text-center"><span class="fa fa-compass" aria-hidden="true"></span> Mentorship</h3>
+          <p>
+            Our experienced instructors will do <strong>code reviews</strong> and they will give you <strong>individual feedback</strong>. Instructors will guide you to think of the best way to solve a problem.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h3 class="text-center"><span class="fa fa-user-plus" aria-hidden="true"></span><span class="fa fa-user" aria-hidden="true"></span> Collaborative environment</h3>
+          <p>
+            You will work in <strong>teams and pairs</strong>. You will have to explain what you do and how, rather than just doing. Explaining is a great way to learn and consolidate new skills.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!--
+<div class="section grey-txt grey-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+        <h3>Do you have any questions about our bootcamp?</h3>
+        <p>
+          <a href="mailto:hello@reactjs.academy?subject=React Redux training" class="btn btn-info btn-lg">Ask us</a> <a href="mailto:hello@reactjs.academy?subject=React Redux training">hello@reactjs.academy</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="section audience">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 text-center">
+				<h2 class="anchor-link"><a href="#react-training-requirements" name="react-training-requirements"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> React Bootcamp Target Audience</h2>
+				<p>
+					In order to participate in our intensive React training you need to know HTML, CSS and some JavaScript. We can recommend you some online courses, exercises, and katas to improve your JavaScript skills before attending our React training.
+				</p>
+			</div><!-- /col-lg-8 -->
+		</div><!-- /row -->
+	</div> <!-- /container -->
+</div>
+<!--
+<div class="section white-bg grey-txt">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<h2>Why should you invest in JavaScript training? <br> <a href="/why-training">Read why &#xbb;</a> </h2>
+      <p>
+        <a href="/why-training"  class="btn btn-default btn-lg">Why invest in JS training</a>
+      </p>
+		</div>
+	</div>
+</div>
+
+</div> -->
+
+
+
+<!--
+<div class="section blue-bg apply-now">
+<div class="triangle triangle-white"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h2>Apply now at <a href="mailto:hello@reactjs.academy?subject=Scholarship for the next bootcamp in London">hello@reactjs.academy</a></h2>
+        <p>
+          <a href="mailto:hello@reactjs.academy?subject=Scholarship for the next bootcamp in London" class="btn btn-default btn-lg">Apply now</a>
+        </p>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+<div class="section contact  white-bg grey-txt">
+	<div class="container text-center">
+		<h2>More info at <a href="mailto:hello@reactjs.academy?subject=Attending the next bootcamp">hello@reactjs.academy</a></h2>
+		<a href="mailto:hello@reactjs.academy?subject=Attending the next bootcamp" class="btn btn-info btn-lg">Contact now</a>
+    <h3 class="text-center"><b>Are you a minority in tech?</b></h3>
+    <p> We are committed to making the tech industry more accessible and diverse, please <a href="mailto:hello@leanjs.com?subject=scholarship">contact us</a> directly to find out about discounts and scholarships.</p>
+
+	</div>
+</div>
+
+<div class="section workshops">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="https://www.youtube.com/embed/2-IPT7Plsfc?autoplay=1"
+          data-mediabox="video2"
+          data-iframe="true"
+          data-width="530"
+          data-height="315"
+          data-title="ReactJS Academy">
+          <span class="fa fa-youtube-play fa-7" aria-hidden="true"></span>
+          <br />
+          <strong>
+            play video
+          </strong>
+        </a>
+        <h2>Listen to what our trainees say about our training</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section purple-bg">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h2 class="text-center">Join our next React Bootcamp</h2>
+      <p>
+        <br><a href="react-redux-graphql-bootcamp-lisbon" class="btn btn-default btn-lg">Next Bootcamp</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+</div>
+ <footer class="text-center">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <h3>Headquarters</h3>
+          <p>
+            <span>1 St Katharine's Way</span>
+            <br />
+            <span>London E1W 1UN, UK</span>
+            <br />
+            <!--
+            <span class="fa fa-map-marker"></span>
+             <a target="_blank" href="/react-redux-training"> Other Locations </a> -->
+          </p>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>Around the Web</h3>
+          <ul class="list-inline">
+            <li>
+              <a target="_blank" href="https://github.com/leanjscom" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/reactjsacademy" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/reactjsacademy/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.youtube.com/channel/UC8eG6zOgWqeIZlJ8KRgEbSQ" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube-play"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>About Us</h3>
+          <p>
+            ReactJS Academy's mission is to help anyone, anywhere become a great React developer. <a href="/terms-of-service">Terms of service</a>.
+            ReactJS Academy is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://leanjs.com/" target="_blank">LeanJS</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <span>Copyright &copy; 2017</span> ReactJS Academy is a <a href="https://leanjs.com/" target="_blank">LeanJS</a> product.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--
+<div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          Copyright &copy; 2017 | ReactJS Academy London, UK made by <a href="http://leanjs.com/">LeanJS</a>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline social">
+             <li>
+                 <a target="_blank" href="https://github.com/reactjs-academy" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+             </li>
+             <li>
+                 <a target="_blank" href="https://twitter.com/reactjsacademy" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+             </li>
+             <li>
+                 <a target="_blank" href="https://www.instagram.com/reactjsacademy/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+             </li>
+         </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+-->
+
+  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  <script src="/assets/js/checkout/bundle.js?v=1.0.10"></script>
+
+</body>
+
+</html>
