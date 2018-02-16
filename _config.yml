@@ -1,5 +1,9 @@
-url: https://www.reactjs.academy   # with the https protocol
-enforce_ssl: www.reactjs.academy   # without any protocol
+url: https://reactjs.academy   # with the https protocol
+enforce_ssl: reactjs.academy   # without any protocol
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 assets:
   compress:
     css: false
