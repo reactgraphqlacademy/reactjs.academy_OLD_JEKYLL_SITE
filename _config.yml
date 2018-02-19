@@ -6,8 +6,8 @@ whitelist:
   - jekyll-redirect-from
 assets:
   compress:
-    css: true
-    js: true
+    css: false
+    js: false
 
   autowrite: true
   cache: .asset-cache

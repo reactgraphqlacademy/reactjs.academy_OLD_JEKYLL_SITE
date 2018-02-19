@@ -499,7 +499,7 @@ a.btn-info {
 .section-bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: center;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -527,7 +527,6 @@ a.btn-info {
 
 .section-header-barcelona {
   background-image: url('/assets/img/barcelona-lg.jpg');
-  background-position: center;
 }
 
 .section-header-lisbon {
