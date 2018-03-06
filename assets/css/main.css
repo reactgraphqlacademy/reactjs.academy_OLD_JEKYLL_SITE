@@ -517,6 +517,47 @@ a.btn-info {
   background-image: url('/assets/img/london-lg.jpg');
 }
 
+.section-header-full-stack-js {
+  background-color: #F7D963;
+  color:#333;
+}
+
+.section-header-full-stack-js h1 {
+  padding-top: 10px;
+}
+
+.section-header-full-stack-js .full-stack-js-image-wrapper {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header-full-stack-js .full-stack-js-image {
+  width: 100%;
+  display: block;
+}
+
+.section-header-full-stack-js .full-stack-js-image img {
+  width:100%;
+}
+
+@media (min-width: 1081px){
+  .section-header-full-stack-js {
+    padding-top:20px;
+    padding-bottom:10px;
+  }
+  .section-header-full-stack-js .full-stack-js-image{
+    background-image: url('/assets/img/jstips.gif');
+    background-size: cover;
+  }
+  .section-header-full-stack-js .full-stack-js-image img {
+    visibility: hidden;
+  }
+  .section-header-full-stack-js .full-stack-js-image-wrapper {
+    width: 60%;
+  }
+}
+
 .section-header-paris {
   background-image: url('/assets/img/paris-lg.jpg');
 }
