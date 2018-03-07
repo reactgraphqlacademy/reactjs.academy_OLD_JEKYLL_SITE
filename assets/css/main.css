@@ -509,6 +509,7 @@ a.btn-info {
 .section-header-berlin .jumbotron,
 .section-header-amsterdam .jumbotron,
 .section-header-barcelona .jumbotron,
+.section-header-sydney .jumbotron,
 .section-header-london .jumbotron {
   padding: 60px 20px 20px;
 }
@@ -548,6 +549,22 @@ a.btn-info {
 
 .section-header-berlin {
   background-image: url('/assets/img/berlin-lg.jpg');
+}
+
+.section-header-sydney {
+  background-image: url('/assets/img/sydney-lg.jpg');
+}
+
+.section-header-sydney:before {
+  content: '';
+  display:block;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  background: #000;
+  opacity: 0.5;
 }
 
 .section-header-europe {
@@ -614,6 +631,15 @@ button .fa, a .fa {
 
 .container.navbar {
   padding: 0 1em;
+}
+ul.dropdown-menu {
+  min-width: 0;
+}
+.dropdown-menu>li{
+  margin:0;
+}
+.dropdown-menu>li>a{
+  padding: 10px 23px;
 }
 
 /*Override snap point for burger menu*/
