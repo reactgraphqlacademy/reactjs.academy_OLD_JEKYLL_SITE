@@ -26,13 +26,13 @@ currency: 'GBP'
       <h2>
         React, GraphQL, Node, Mongo
       </h2>
-      <a href="https://www.youtube.com/embed/2-IPT7Plsfc?autoplay=1"
+      <a href="https://www.youtube.com/embed/yGwmF4AT1Fg?autoplay=1"
         data-mediabox="video1"
         data-iframe="true"
         data-width="530"
         data-height="315"
         data-title="ReactJS Academy">
-        <span class="fa fa-youtube-play fa-7" aria-hidden="true"></span>
+        <span class="fa fa-youtube-play fa-7" style="color:#333" aria-hidden="true"></span>
         <br>
         <strong>Play video &#xbb;</strong>
       </a>
@@ -47,158 +47,221 @@ currency: 'GBP'
 <div class="section grey-bg">
   <div class="container">
     <div class="row row-courses">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="row row-flex">
-          <div class="col-sm-8 flex-col">
-                <p><br/><strong>Early bird</strong></p>
-                <p>The cost of the course is &pound;1245 + VAT per student. Early bird tickets are only &pound;995 + VAT</p>
-          </div>
-          <div class="col-sm-4 flex-col">
-            <div
-              class="checkout-course-btn text-center"
-              data-course-code="reactpartlondon201803"
-              data-course-type="fundamentals"
-              data-course-price="995"
-              data-course-title="React Part-Time London"
-              data-checkout-btn-text="Buy course"
-              data-currency="gbp"
-              data-button="btn_3colheader_bootcamp"
-            ></div>
-            <h4 class="text-center">
-               <span style="text-decoration:line-through; color:red; margin-right:8px">
-                 &pound;1245
-               </span>
-               <span>
-                 &pound;995
-               </span>
-            </h4>
+  		<div class="col-md-8 col-md-offset-2">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>1-Week Full-stack JavaScript Developer Bootcamp</h3>
+            <p>
+              <br /><strong>May 20 to May 27, 2018. Location: Torres Vedras, Portugal, <a target="_blank" href="https://www.google.es/maps/place/Torres+Vedras,+Portugal/data=!4m2!3m1!1s0xd1f2dc6e6eec1c5:0x74d9ecc840071720?sa=X&ved=0ahUKEwjy2L3N9uHZAhXsIMAKHe0ED2wQ8gEIzQEwEA"><span class="fa fa-map-marker" aria-hidden="true"></span></a></strong>.
+              <br>Cost of the 7-day training: <strong>&pound;1600</strong> + VAT
+            </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h3>
-            <strong>
-            Every Monday and Wednesday evening 6-9pm, March 12th to April 25th, 2018.
-            </strong>
-          </h3>
+    </div>
+
+    <div class="row row-courses row-top-margin">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row row-flex border-bottom">
+            <div class="col-sm-8 flex-col">
+                  <h3>Two payment Options</h3>
+                  <p><br/><strong>Early bird ticket</strong></p>
+                  <p>For those who would like to secure their spot early, we have a <strong>10% discount on the total price</strong>.</p>
+                  <!-- <p style="color:red">Last few tickets available!!</p> -->
+            </div>
+            <div class="col-sm-4 flex-col">
+              <div
+                class="checkout-course-btn text-center"
+                data-training-instance-id="5aa2b6027dcc782348ea2013"
+                data-course-price="1640"
+                data-course-title="React Bootcamp Portugal April-May 2018"
+                data-checkout-btn-text="Buy course"
+                data-currency="gbp"
+                data-button="btn_3colheader_bootcamp"
+              ></div>
+              <h4 class="text-center">
+                 <span style="text-decoration:line-through; color:red; margin-right:8px">
+                   &pound;1800
+                 </span>
+                 <span>
+                   &pound;1640
+                 </span>
+              </h4>
+            </div>
+          </div>
+          <div class="row row-flex">
+            <div class="col-sm-8 flex-col">
+                  <p><br/><strong>Pay by Installments</strong></p>
+                  <p>For those preferring to pay in installments, contact us and we'll arrange for you to pay in 3 installments with the first being 50% of the total cost and the other to follow over 6 months.</p>
+            </div>
+            <div class="col-sm-4 flex-col flex-align-items-center">
+                <a class="btn btn-info btn-lg request-btn" href="mailto:hello@reactjs.academy?subject=installments">Payment Plan</a>
+                <h4 class="text-center">
+                  &pound;1800
+                </h4>
+            </div>
+          </div>
         </div>
+
+      </div>
+
+  </div>
+</div>
+
+{% include terms-conditions.html %}
+
+<div class="section grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h4>I would like to recieve more info and some pre-course learning resources!</h4>
+        <form class="form-inline more-info-form">
+          <div><input type="hidden" name="mailing-list-submitted" value="1"/></div>
+          <div class="form-group">
+            <label for="exampleInputName2">Name</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Your Name!">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail2">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Your best email">
+          </div>
+          <button type="submit" class="btn btn-info">Sign me up!</button>
+        </form>
       </div>
     </div>
   </div>
 </div>
 
-<div class="section white-bg">
-    {% include cv-part-time.html %}
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Interested in a React developer bootcamp?</h2>
+        <h3>
+          <a href="/react-redux-graphql-bootcamp-lisbon">See our React developer bootcamp <i class="fa fa-arrow-circle-right" style="margin-left:8px" aria-hidden="true"></i></a>
+        </h3>
+        <p style="padding-top:20px">
+          <a class="btn btn-default btn-lg" href="/react-redux-graphql-bootcamp-lisbon">React Bootcamp</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="section blue-bg">
-	{% include a-day-in-our-training.html %}
+	{% include why-attend-bootcamp.html %}
+</div>
+
+<div class="section white-bg">
+    {% include cv-bootcamp-fullstack.html %}
 </div>
 
 <div class="section grey-bg ">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
         <h2 class="text-center">Meet the coaches</h2>
-      </div>
-    </div>
-
-        <div class="row" style="padding-top:20px">
-
-
-          <div style="padding-bottom: 20px;" class="col-md-2 col-sm-offset-0 col-md-offset-1 text-center">
-            <p>
-              <a target="_blank" href="https://github.com/alexlbr"><img src="https://storage.googleapis.com/upmentoring_user_profile_image/400x400_5a6740a52755c83e82f7d829.jpeg" class="img-responsive img-circle" alt="Alex Lobera"></a>
+        <div class="row text-center" style="padding-top:20px">
+          <div class="col-sm-4 text-center">
+              <p>
+              <a class="text-center" target="_blank" href="https://github.com/alexlbr"><img src="/assets/img/alex.jpg" class="img-responsive img-circle" alt="Alex Lobera"></a>
             </p>
             <p>
               <h4><a target="_blank" href="https://github.com/alexlbr">Alex Lobera</a></h4>
             </p>
           </div>
-          <div style="padding-bottom: 20px;" class="col-md-2 text-center">
+          <div class="col-sm-4 text-center">
             <p>
-              <a target="_blank" href="https://github.com/ric9176"><img src="https://storage.googleapis.com/upmentoring_user_profile_image/400x400_5a5c81804f438611e449e202.jpeg" class="img-responsive img-circle" alt="Richard Moss"></a>
+              <a target="_blank" href="https://github.com/ric9176"><img src="https://s3-eu-west-1.amazonaws.com/masters-directory/richard-upmentoring.jpg" class="img-responsive img-circle" alt="Richard Moss"></a>
             </p>
             <p>
               <h4><a target="_blank" href="https://github.com/ric9176">Richard Moss</a></h4>
             </p>
           </div>
-          <div style="padding-bottom: 20px;" class="col-md-2 text-center">
+          <div class="col-sm-4 text-center">
             <p>
-              <a target="_blank" href="https://github.com/Adzz"><img src="https://storage.googleapis.com/upmentoring_user_profile_image/400x400_5a89a7dbbf83581e81687a7a.jpeg" class="img-responsive img-circle" alt="Adam Lancaster"></a>
+              <a target="_blank" href="https://github.com/hhg2288"><img src="https://avatars3.githubusercontent.com/u/725120?s=400&v=4" class="img-responsive img-circle" alt="Horacio Herrera"></a>
             </p>
             <p>
-              <h4><a target="_blank" href="https://github.com/Adzz">Adam Lancaster</a></h4>
-            </p>
-          </div>
-          <div style="padding-bottom: 20px;" class="col-md-2 text-center">
-            <p>
-              <a target="_blank" href="https://github.com/oluomoniyi"><img src="https://storage.googleapis.com/upmentoring_user_profile_image/400x400_5a89a76fbf83581e81687a79.jpeg" class="img-responsive img-circle" alt="Olu Omoniyi"></a>
-            </p>
-            <p>
-              <h4><a target="_blank" href="https://github.com/oluomoniyi">Olu Omoniyi</a></h4>
+            <h4><a target="_blank" href="https://github.com/hhg2288">Horacio Herrera</a></h4>
             </p>
           </div>
-          <div style="padding-bottom: 20px;" class="col-md-2 text-center">
-            <p>
-              <a target="_blank" href=""><img src="https://storage.googleapis.com/upmentoring_user_profile_image/400x400_5a5f50e14f438611e449e229.jpeg" class="img-responsive img-circle" alt="Michaela Hercogova"></a>
-            </p>
-            <p>
-              <h4><a target="_blank" href="https://github.com/Majkina">Michaela Hercogova</a></h4>
-            </p>
-          </div>
-          <!-- <div class="col-md-4">
-            <p>
-              <a target="_blank" href="/become-a-coach.html">
-                <img src="/assets/img/default-avatar.jpg" class="img-responsive img-circle" alt="You?">
-              </a>
-            </p>
-            <p>
-              <h4>
-                <a href="/become-a-coach.html">You?</a>
-              </h4>
-            </p>
-          </div> -->
         </div>
+
       </div>
     </div>
+  </div>
+</div>
+
+<div class="section white-bg section-pictures">
+	<div class="container">
+    <div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+        <h2><a name="place"></a>The place</h2>
+        <h3>
+          Code, collaborate, learn and live all in a single, beautiful and comfortable place <small>(up to 20 people).</small>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section purple-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3" style="font-size:1.2em">
+        <h2 class="text-center">A day in our training</h2>
+        <ul class="list-unstyled">
+          <li>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Breakfast
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Lecture and code
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Lunch
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Lecture and code
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Dinner
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Relax, rest,... or code :)
+          </li>
+        </ul>
+			</div>
+		</div>
   </div>
 </div>
 
 <div class="section white-bg">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center">
-        <h2>Become a React, Redux, and GraphQL developer in our part-time in-person training in London</h2>
+			<div class="col-md-8 col-md-offset-2" style="font-size:1.2em">
         <p>
-          {% include signup-form.html buttonText="More info please!" %}
+          ReactJS Academy is Europes longest running dedicated React and Redux training. Established in <a href="https://www.meetup.com/JavaScript-London/events/230287691/" target="_blank">May 2016</a>, we've trained over 1000 developers across the EU in our private bootcamps and public workshops.
         </p>
+        <p>
+          You can read reviews of our workshops in the following Meetup groups which we organise:
+        </p>
+        {% include meetup-list.html %}
 			</div>
 		</div>
-	</div>
+  </div>
 </div>
 
 {% include trainees-say.html %}
 
 <div class="section white-bg">
-	{% include cost-learning.html %}
-</div>
-
-<div class="section grey-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2>
-        Do you want to become a ReactJS coach in London?
-        </h2>
-        <p>
-          <a href="/become-a-coach.html" class="btn btn-info btn-lg">Become a coach</a>
-        </p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center" style="font-size:1.2em">
+        <h3><b>Are you a minority in tech?</b></h3>
+        <p> We are committed to making the tech industry more accessible and diverse, please <a href="mailto:hello@reactjs.academy?subject=scholarship">contact us</a> directly to find out about discounts and scholarships.</p>
+        <h4><a href="mailto:hello@reactjs.academy?subject=scholarship"><strong>hello@leanjs.com</strong></a></h4>
       </div>
     </div>
   </div>
 </div>
-
-<!-- <div class="section purple-bg">
-  {% include bootcamp-other-locations.html %}
-</div> -->
