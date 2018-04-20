@@ -927,3 +927,37 @@ width:100%;
 .become-a-coach-form .form-group {
   margin-bottom: 24px;
 }
+
+#curriculum > .row {
+  margin-bottom: 60px;
+}
+
+#curriculum > .row:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.cv-list-item,
+.checks-list li {
+  display: flex;
+  align-items: baseline;
+  margin: 12px 0;
+}
+
+.cv-list-item {
+  font-weight: 700;
+}
+
+.cv-list-item .label,
+.checks-list li .fa {
+  margin-right: 12px;
+}
+
+.cv-list-item .label {
+  padding: 0.5em .8em .5em;
+}
+
+.checks-list li .fa {
+  font-size: 24px;
+}
