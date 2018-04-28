@@ -44,12 +44,7 @@ currency: 'GBP'
   <div class="container">
     <div class="row row-courses">
       <div class="col-md-8 col-md-offset-2">
-        <hr  />
-      </div>
-    </div>
-    <div class="row row-courses">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="row row-flex">
+        <div class="row row-flex" style="padding-bottom: 0">
           <div class="col-sm-8 flex-col">
             <p><br/><strong>Early bird, React part-time course London</strong></p>
             <p>The cost of the course is &pound;1245 + VAT per student. Early bird tickets are only &pound;995 + VAT. <strong><a href="#react-part-time">See curriculum</a></strong></p>
@@ -102,7 +97,20 @@ currency: 'GBP'
 
 {% include terms-conditions.html %}
 
-<div class="section white-bg" style="padding-top: 0;">
+<div class="section grey-bg" style="padding-top:30px; padding-bottom: 30px">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+        <h2>Join our mailing list</h2>
+        <p>
+          {% include signup-form.html buttonText="More info please!" %}
+        </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section white-bg" >
     {% include cv-part-time.html %}
 </div>
 
@@ -110,7 +118,7 @@ currency: 'GBP'
     <div class="container">
       <div class="row row-courses">
         <div class="col-md-8 col-md-offset-2">
-          <div class="row row-flex">
+          <div class="row row-flex" style="padding-bottom: 0">
             <div class="col-sm-8 flex-col">
               <p><br/><strong>Early bird, React part-time course London</strong></p>
               <p>The cost of the course is &pound;1245 + VAT per student. Early bird tickets are only &pound;995 + VAT</p>
@@ -179,6 +187,15 @@ currency: 'GBP'
     </div>
     </div>
 </div> -->
+
+
+<div class="section white-bg">
+	{% include prerequisites.html %}
+</div>
+
+<div class="section grey-bg">
+	{% include faqs.html %}
+</div>
 
 <div class="section white-bg">
 	{% include a-day-in-our-training.html %}
@@ -292,7 +309,7 @@ currency: 'GBP'
   </div>
 </div>
 
-<div class="section white-bg">
+<!-- <div class="section white-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
@@ -327,7 +344,7 @@ currency: 'GBP'
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- <div class="section purple-bg">
   {% include bootcamp-other-locations.html %}

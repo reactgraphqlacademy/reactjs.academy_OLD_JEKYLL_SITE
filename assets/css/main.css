@@ -964,3 +964,16 @@ width:100%;
 .checks-list li .fa {
   font-size: 24px;
 }
+
+h2 {
+  position: relative;
+}
+h2 .glyphicon-link {
+  visibility: hidden;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 15px;
+}
+h2:hover .glyphicon-link {
+  visibility: visible;
+}
