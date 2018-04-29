@@ -977,3 +977,12 @@ h2 .glyphicon-link {
 h2:hover .glyphicon-link {
   visibility: visible;
 }
+
+.media-anchor {
+  display: inline-block;
+}
+
+.media-anchor img {
+  display: block;
+  width: 100%;
+}
