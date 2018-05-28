@@ -56,6 +56,17 @@
       $(".alert").show();
     }
 
+    function acceptedCookies() {
+      Cookies.set('acceptedCookies', 'true');
+      $("#acceptcookies").remove()
+    }
+
+    function pageLoaded() {
+      var userAcceptedCookies = Cookies.get('acceptedCookies');
+      if (!userAcceptedCookies) {
+        $("#acceptcookies").show();
+      }
+    }
   </script>
 
   <!-- Google Tag Manager -->
@@ -80,7 +91,7 @@
 
 </head>
 
-<body class="{{page.menu}} {{page.bodyclass}}">
+<body class="{{page.menu}} {{page.bodyclass}}" onload="pageLoaded()">
   <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVK4HZS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -91,8 +102,21 @@
     Thanks! We'll be in touch with more info soon.
   </div>
   {% include menu.html %} {{ content }} {% include footer.html %}
+  <div id="acceptcookies">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          We use cookies to offer you a better experience and to analyze site traffic. By continuing to browse this site, you agree to this
+          <a href="/privacy-policy#10">use of cookies</a>.
+        </div>
+        <div class="col-md-3 text-center">
+          <button class="btn btn-default btn-block" onClick="acceptedCookies()">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
   <script src="/assets/js/checkout/bundle.js?v=1.0.22"></script>
 </body>
-
 </html>

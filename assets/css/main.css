@@ -986,3 +986,19 @@ h2:hover .glyphicon-link {
   display: block;
   width: 100%;
 }
+
+#acceptcookies {
+  color: #333;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #eee;
+  z-index: 99999;
+  border-top: 1px solid #ccc;
+  display: none;
+}
+#acceptcookies .row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

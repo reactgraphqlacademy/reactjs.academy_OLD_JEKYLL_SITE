@@ -131,18 +131,7 @@ img: https://reactjs.academy/assets/img/space-torres-vedras6.jpg
     <div class="row">
       <div class="col-md-12 text-center">
         <h4>I would like to recieve more info and some pre-course learning resources!</h4>
-        <form class="form-inline more-info-form">
-          <div><input type="hidden" name="mailing-list-submitted" value="1"/></div>
-          <div class="form-group">
-            <label for="exampleInputName2">Name</label>
-            <input type="text" class="form-control" id="exampleInputName2" placeholder="Your Name!">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail2">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Your best email">
-          </div>
-          <button type="submit" class="btn btn-info">Sign me up!</button>
-        </form>
+        {% include signup-form.html buttonText="Sign me up!" %}
       </div>
     </div>
   </div>
