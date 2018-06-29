@@ -526,6 +526,10 @@ a.btn-info {
   background-image: url('/assets/img/london-lg.jpg');
 }
 
+.section-header-london2 {
+  background-image: url('/assets/img/london-city-lg.jpeg');
+}
+
 .section-header-full-stack-js .jumbotron {
   padding-bottom: 40px;
 }
