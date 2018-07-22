@@ -16,12 +16,11 @@ img: https://reactjs.academy/assets/img/london-city-lg.jpeg
 </script>
 <script>
   function formAutopilotSubmited(e) {
-      console.log('test')
+      console.log('test formAutopilotSubmited')
       e.preventDefault()
   }
-
   function formAutopilotLoaded() {
-    var el = document.getElementById('more-info-form')
+    var el = document.getElementsByTagName('cancel-form-submit')
     if(el && el.addEventListener) {
       setTimeout(1000, el.addEventListener("submit", formAutopilotSubmited , false))
     }
@@ -85,7 +84,7 @@ img: https://reactjs.academy/assets/img/london-city-lg.jpeg
               <div
                 class="checkout-course-btn text-center"
                 data-training-instance-id="5b3605d7b8340f47a4b8e420"
-                data-course-price="1450"
+                data-course-price="1590"
                 data-course-title="React Bootcamp London August 2018"
                 data-checkout-btn-text="Buy course"
                 data-currency="gbp"
@@ -97,7 +96,7 @@ img: https://reactjs.academy/assets/img/london-city-lg.jpeg
                    &pound;1800
                  </span>
                  <span>
-                   &pound;1450
+                   &pound;1590
                  </span>
               </h4>
 
